@@ -1,1 +1,1 @@
-export { default as VueApplication } from './App'
+export { default as ReactApplication } from './App'

@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es6: true
   },
-  extends: ["standard", "plugin:vue/recommended"],
+  extends: ["standard", "plugin:react/recommended"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly"
@@ -12,6 +12,6 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module"
   },
-  plugins: ["vue"],
+  plugins: ["react"],
   rules: {}
 };

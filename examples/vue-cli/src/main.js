@@ -1,3 +1,3 @@
-import { VueApplication } from 'modvue'
+import { ReactApplication } from 'modreact'
 
-new VueApplication().start('app');
+new ReactApplication().start('app');

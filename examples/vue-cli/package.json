@@ -9,9 +9,10 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "modvue": "file:../..",
-    "vue": "^2.6.10",
-    "widdershins": "^3.6.7"
+    "modreact": "file:../..",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0",

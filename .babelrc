@@ -10,6 +10,6 @@
         }
       }
     ],
-    "vue"
+    "@babel/preset-react"
   ]
 }
