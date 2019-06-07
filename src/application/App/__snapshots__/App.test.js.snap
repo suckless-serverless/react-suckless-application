@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageList.test.js clicks event 1`] = `
+<div
+  onClick={[Function]}
+>
+  Hello World
+  1
+</div>
+`;
+
+exports[`MessageList.test.js renders correctly 1`] = `
+<div
+  onClick={[Function]}
+>
+  Hello World
+  0
+</div>
+`;

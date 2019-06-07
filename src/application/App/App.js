@@ -1,7 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 
-class MyComponent extends React.Component {
+class App extends React.Component {
   constructor (props) {
     super(props)
     this.click = this.click.bind(this)
@@ -22,8 +21,4 @@ class MyComponent extends React.Component {
   }
 }
 
-export default class ReactApplication {
-  start (root) {
-    ReactDOM.render(<MyComponent />, document.getElementById(root))
-  }
-}
+export default App
