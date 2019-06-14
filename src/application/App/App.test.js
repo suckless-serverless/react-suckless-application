@@ -15,7 +15,7 @@ describe('MessageList.test.js', () => {
   it('clicks event', () => {
     let tree = app.toJSON()
     // manually trigger the callback
-    tree.props.onClick()
+    tree.children[1].props.onClick()
     // re-rendering
     tree = app.toJSON()
     expect(tree).toMatchSnapshot()

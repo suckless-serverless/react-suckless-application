@@ -1,1 +1,1 @@
-export { default as ReactApplication } from './App'
+export { default as ReactApplication } from './ReactApplication'

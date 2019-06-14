@@ -5,6 +5,7 @@ class App extends React.Component {
     super(props)
     this.click = this.click.bind(this)
     this.state = {
+      name: 'Number of clicks',
       number: 0
     }
   }
@@ -14,9 +15,13 @@ class App extends React.Component {
     this.setState({ number })
   }
   render () {
-    return <div onClick={this.click}>
-    Hello World
-      { this.state.number }
+    return <div>
+      <img src="https://www.cybelesoft.com/wp-content/uploads/2017/08/reactlogo2-150x150.png" alt=""/>
+      <button onClick={this.click}>Click Me</button>
+      { this.state.name } =&gt;  { this.state.number }
+      <div id="container">
+        you contained app goes here
+      </div>
     </div>
   }
 }
