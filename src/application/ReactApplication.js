@@ -7,10 +7,10 @@ export default class ReactApplication {
   start (root) {
     return new Promise((resolve, reject) => {
       // is this a container
-      document.arrive('#container', function () {
+      document.arrive('#reactcontainer', function () {
         // 'this' refers to the newly created element
-        document.unbindArrive('#container')
-        resolve('container')
+        document.unbindArrive('#reactcontainer')
+        resolve('reactcontainer')
         console.log('#contained was rendered')
       })
       ReactDOM.render(<App />, document.getElementById(root))
