@@ -1,3 +1,3 @@
-import { ReactApplication } from 'modreact'
+import { ReactApplication } from 'suckless-serverless-react-demo'
 
-new ReactApplication().start('app');
+new ReactApplication().run('app');

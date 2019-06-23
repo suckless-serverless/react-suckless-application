@@ -1,5 +1,5 @@
 {
-  "name": "modreact",
+  "name": "suckless-serverless-react-demo",
   "version": "1.0.0",
   "description": "",
   "main": "dist/bundle.cjs.js",
@@ -36,9 +36,9 @@
     "rollup-plugin-terser": "^5.0.0"
   },
   "dependencies": {
-    "arrive": "^2.4.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "suckless-serverless": "^1.0.0"
   },
   "jest": {
     "moduleNameMapper": {
